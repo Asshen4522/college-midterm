@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color-dark: rgb(31, 31, 31);
+  --color-light: #fcfcfc;
+  --color-accent: #348c9b;
+}
+
+.app-container {
+  position: relative;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.page {
+  position: relative;
+}
+
+.top-button {
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  background-color: var(--color-accent);
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  right: 32px;
+  bottom: 32px;
+}
+
+.top-button span {
+  color: var(--color-light);
+  font-size: 28px;
+}
+
+.copyright {
+  color: var(--color-light);
+  text-decoration: none;
+  filter: brightness(0.3);
+}

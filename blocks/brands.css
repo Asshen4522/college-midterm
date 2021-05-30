@@ -1,0 +1,22 @@
+.brands {
+  margin-bottom: 48px;
+}
+
+.brands__list {
+  display: grid;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  gap: 40px;
+}
+
+.brands__item {
+  display: flex;
+  justify-content: center;
+}
+
+.brands__logo {
+  object-fit: contain;
+  width: 50%;
+}

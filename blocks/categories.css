@@ -1,0 +1,27 @@
+.categories-info {
+  width: 100%;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr;
+  margin-bottom: 48px;
+}
+
+.categories-info__inner {
+  border: 1px solid gainsboro;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.categories-info__img {
+  max-width: 280px;
+}
+
+@media screen and (min-width: 768px) {
+  .categories-info {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+
+  .categories-info__img {
+    max-width: 320px;
+  }
+}

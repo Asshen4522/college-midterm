@@ -1,0 +1,40 @@
+.special {
+  margin-bottom: 48px;
+}
+
+.special__inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.special__img {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  max-height: 400px;
+  border-radius: 12px;
+}
+
+.special__heading {
+  margin: 0;
+  margin-bottom: 12px;
+  color: var(--color-accent);
+}
+
+.special__content {
+  color: var(--color-dark);
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.special__info {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .special__inner {
+    grid-template-columns: 1fr 1.5fr 0.5fr;
+  }
+}

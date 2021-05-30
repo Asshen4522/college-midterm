@@ -1,0 +1,67 @@
+.email {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  padding: 48px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.email__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.email__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.form__input {
+  font-size: 16px;
+  padding: 16px 12px;
+  background-color: gainsboro;
+  box-shadow: none;
+  border: none;
+  color: var(--color-dark);
+  border-radius: 6px;
+}
+
+.form__label-text {
+  margin-bottom: 8px;
+}
+
+.form__submit {
+  padding: 16px 12px;
+  font-size: 16px;
+  background-color: var(--color-accent);
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-light);
+  border-radius: 6px;
+}
+
+.form__checkbox {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .email {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+  }
+
+  .form__submit {
+    max-width: 50%;
+  }
+}
