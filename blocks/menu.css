@@ -1,0 +1,47 @@
+.menu {
+    position: relative;
+}
+
+.menu__title {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+.menu__container {
+    width: 320px;
+    position: absolute;
+    top: 44px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: 300ms;
+}
+
+.menu__container_opened {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+.menu__list {
+    list-style: none;
+
+}
+
+.menu__item {
+margin-bottom: 8px;
+}
+
+.menu__item:last-child {
+    margin-bottom: 0;
+}   

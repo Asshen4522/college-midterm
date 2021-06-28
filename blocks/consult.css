@@ -31,6 +31,18 @@
 .consultants-info__exp {
   font-size: 18px;
   padding: 12px;
+  padding-bottom: 0;
+}
+
+.consultants-info__exp::after {
+  content: '₽';
+}
+
+.consultants-info__exp_old {
+  font-size: 18px;
+  padding: 12px;
+  text-decoration: line-through;
+  color: gray;
 }
 
 .consultants-info__img {

@@ -10,8 +10,8 @@ html {
 
 :root {
   --color-dark: rgb(31, 31, 31);
-  --color-light: #fcfcfc;
-  --color-accent: #348c9b;
+  --color-light: hsl(311, 92%, 85%);
+  --color-accent: hsl(352, 50%, 41%);
 }
 
 .app-container {
